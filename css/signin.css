@@ -1,0 +1,146 @@
+*{
+    -webkit-box-sizing:border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    max-width: 100%;
+    height: auto;
+    font-family: arial;
+    font-size: 1rem;
+}
+.bg-color-1{
+    background-color: #173630;
+}
+color-1{
+    color: #173630;
+}
+.bg-color-2{
+    background-color: #108043;
+}
+.color-2{
+    color: #108043;
+}
+.active{
+    background-color: #50B83C;
+    border-radius: 0px 10px 10px 0px;
+}
+.color-3{
+    color: #50B83C;
+}
+.bg-color-4{
+    background-color: #544947;
+}
+.color-4{
+    color: #544947;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    
+}
+.logo{
+    display: block;
+}
+.l-side{
+    display: inline-block;
+    max-width:24%;
+    height: auto;
+    border: 1px solid #108043;
+    margin: .5%;
+    padding: 1%;
+    line-height: 1.5;
+}
+.l-side p{
+    text-align: justify;
+}
+video{
+    max-width: 100%;
+}
+
+.form{
+    display: inline-block;
+    margin-left: 5%;
+    max-width: 25%;
+    height: auto;
+    position: relative;
+    bottom: 45vh;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.btns{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#173630;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    position: relative;
+    right: .9vw;
+    bottom: 10vh;
+}
+.signup{
+    padding: 1.2vw 1.9vw;
+}
+.signin{
+    padding: 1.2vw 1.9vw;
+}
+.signup:hover{
+    background-color: #108043;
+    border-radius: 10px 0px 0px 10px;
+}
+.signin:hover{
+    background-color: #108043;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+label{
+    color: #108043;
+    font-weight: 600;
+    margin: 1%;
+}
+input{
+    color: #50B83C;
+    border: 1px solid #108043;
+    width: 15vw;
+    height: 4vh;
+    margin: 3% 1%;
+    margin-bottom: 11%;
+    padding: 2%;
+}
+.submit{
+    margin: 1%;
+    padding: 2%;
+    background-color: #173630;
+    color: white;
+    width: 15vw;
+    height: auto;
+    border: 3px solid #108043;
+    border-radius: 5px;
+    font-size: 1.7vw;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.fo{
+    display:block;
+    margin: 30px 0px 0px 0px;
+    padding: 3px;
+    font-size: 1.1vw;
+    font-weight: bold;
+    color: #544947;  
+}
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
